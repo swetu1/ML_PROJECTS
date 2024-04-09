@@ -17,20 +17,20 @@ Briefly describe each file in the dataset:
 - `test_all_loan.csv`: Complete credit history for test set IDs.
 - `sample_submission.csv`: Format for submitting predictions.
 
-### Preprocessing
-Outline the preprocessing steps, such as handling missing values, feature engineering, and data normalization.
 
-## Exploratory Data Analysis (EDA)
-Summarize the key insights from your EDA, highlighting patterns and correlations that influenced your model choice and feature engineering.
+## Data Preprocessing
+Data preprocessing was a critical step in preparing the dataset for modeling. The process involved:
+
+- **Handling Missing Values**: Techniques were applied to impute missing values, ensuring no data point was ignored due to incompleteness.
+- **Feature Engineering**: Vital features were extracted and created, such as date components from loan opening dates and aggregated statistics from credit history, to provide the model with comprehensive insights into each customer's credit behavior.
+- **Normalization**: Numeric features were normalized to ensure that the scale of values did not bias the model, allowing for equal consideration of all features.
 
 ## Model Building
+The core of this project revolved around building a predictive model with the following approach:
 
-### Approach
-Detail your approach to building the machine learning model, including any specific algorithms, hyperparameter tuning techniques, and the rationale behind your choices.
+- **Algorithm Selection**: Explored various machine learning algorithms to identify the one most suited for predicting the ROI, considering factors like accuracy and computational efficiency.
+- **Hyperparameter Tuning**: Implemented hyperparameter tuning to optimize the model's performance, focusing on minimizing the Root Mean Squared Error (RMSE) to enhance prediction accuracy.
+- **Evaluation**: The model was rigorously tested and validated to ensure its reliability and effectiveness in predicting the rate of interest accurately.
 
-### Feature Engineering
-Explain the process of creating new features and how they contribute to the model's predictive power.
-
-## Results
-Discuss the model's performance, including evaluation metrics like RMSE. Highlight both successes and areas for improvement.
+The chosen model and preprocessing steps were instrumental in addressing the challenges posed by incomplete data, ultimately leading to improved decision-making for financial institutions regarding loan interest rates.
 
