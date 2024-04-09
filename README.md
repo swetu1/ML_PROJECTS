@@ -34,18 +34,3 @@ Explain the process of creating new features and how they contribute to the mode
 ## Results
 Discuss the model's performance, including evaluation metrics like RMSE. Highlight both successes and areas for improvement.
 
-## Limitations and Future Work
-Acknowledge any limitations of the current model and propose directions for future research or improvements.
-
-## How to Use
-
-```bash
-# Example command to clone the repository
-git clone https://github.com/yourusername/roi-prediction-from-bureau-data.git
-
-# Instructions to set up the environment
-cd roi-prediction-from-bureau-data
-pip install -r requirements.txt
-
-# Running the model
-python model.py
